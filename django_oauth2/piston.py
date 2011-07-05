@@ -16,7 +16,7 @@ class OAuth2Authentication(object):
         Would be nice to get request object.
         '''
         resp = HttpResponse("Authorization Required")
-        resp['WWW-Authenticate'] = 'OAuth realm="foobar"'
+        resp['WWW-Authenticate'] = 'OAuth realm="shiningpanda.com"'
         resp.status_code = 401
         return resp
 

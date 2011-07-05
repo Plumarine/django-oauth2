@@ -6,7 +6,7 @@ import ez_setup
 ez_setup.use_setuptools()
 from setuptools import setup, find_packages
 
-version = '0.0.1'
+version = '0.1'
 
 folder = os.path.dirname(os.path.abspath(__file__))
 

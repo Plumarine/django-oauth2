@@ -1,0 +1,1 @@
+OAuth 2 application for Django
